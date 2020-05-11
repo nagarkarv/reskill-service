@@ -62,7 +62,7 @@ class CityList(Resource):
 
 class CountryList(Resource):
 	def get(self):
-		return { "citylist": countryList }, 200
+		return { "countrylist": countryList }, 200
 
 api.add_resource(EndPoints, '/endpoints')
 api.add_resource(CityList, '/city')
