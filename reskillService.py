@@ -27,9 +27,6 @@ countryList = [
 	},
 	{
 		"name": "France"
-	},
-	{
-		"WHO_AM_I": os.environ["HOSTNAME"]
 	}
 ]
 
@@ -42,10 +39,7 @@ cityList = [
 	},
 	{
 		"name": "Newyork",
-	},
-	{
-		"WHO_AM_I": os.environ["HOSTNAME"]
-	},
+	}
 ]
 
 class Home(Resource):
